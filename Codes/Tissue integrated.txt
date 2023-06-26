@@ -1,0 +1,50 @@
+Integrated Tissue  Original Tissue
+Adipose Tissue	Adipose - Subcutaneous
+Adipose Tissue	Adipose - Visceral (Omentum)
+Adrenal Gland	Adrenal Gland
+Bladder	Bladder
+Blood	Cells - EBV-transformed lymphocytes
+Blood Vessel	Artery - Aorta
+Blood Vessel	Artery - Coronary
+Blood Vessel	Artery - Tibial
+Blood	Whole Blood
+Brain	Brain - Amygdala
+Brain	Brain - Anterior cingulate cortex (BA24)
+Brain	Brain - Caudate (basal ganglia)
+Brain	Brain - Cerebellar Hemisphere
+Brain	Brain - Cerebellum
+Brain	Brain - Cortex
+Brain	Brain - Frontal Cortex (BA9)
+Brain	Brain - Hippocampus
+Brain	Brain - Hypothalamus
+Brain	Brain - Nucleus accumbens (basal ganglia)
+Brain	Brain - Putamen (basal ganglia)
+Brain	Brain - Spinal cord (cervical c-1)
+Brain	Brain - Substantia nigra
+Breast	Breast - Mammary Tissue
+Esophagus	Esophagus - Gastroesophageal Junction
+Esophagus	Esophagus - Mucosa
+Esophagus	Esophagus - Muscularis
+Heart	Heart - Atrial Appendage
+Heart	Heart - Left Ventricle
+Kidney	Kidney - Cortex
+Kidney	Kidney - Medulla
+Liver	Liver
+Lung	Lung
+Ovary	Ovary
+Pancreas	Pancreas
+Pituitary	Pituitary
+Prostate	Prostate
+Skin	Cells - Cultured fibroblasts
+Skin	Skin - Not Sun Exposed (Suprapubic)
+Skin	Skin - Sun Exposed (Lower leg)
+Small Intestine	Small Intestine - Terminal Ileum
+Spleen	Spleen
+Stomach	Stomach
+Testis	Testis
+Thyroid	Thyroid
+Tibial Nerve	Nerve - Tibial
+Uterus	Cervix - Ectocervix
+Uterus	Cervix - Endocervix
+Uterus	Uterus
+Vagina	Vagina
