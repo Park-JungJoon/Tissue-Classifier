@@ -37,7 +37,8 @@
 + All models stands for bionomial classification based on randomly sampled 5000 genes.
 + Classify standard tissue is skin, one of the most abundant tissue in GTEx dataset, with significant biologically difference.
 + The first column is 1 or 0, and if the sample is skin values are 1, all other values ​​are 0. Other cells in dataframe is a gene expression (normalized in GeTMM).
- 
++ Random forest model take too long time, use 28 threads.
+
 </br>
 
 ## 5. Result
@@ -62,4 +63,5 @@ Few genes in tree model associated with Skin.
 <img width="570" alt="image" src="https://github.com/Park-JungJoon/Tissue-Classifier/assets/97942772/0f4b8703-7711-4ce1-b58a-df1712065c63">
 
 
-All codes, Rdata saved as jjpark@eevee:/home/jjpark/all_model_done.RData
+All Rdata saved as jjpark@eevee:/home/jjpark/all_model_done.RData
+All codes saved as [Rmd file](https://github.com/Park-JungJoon/Tissue-Classifier/blob/main/Codes/classify_skin.Rmd).
