@@ -60,3 +60,6 @@ Few genes in tree model associated with Skin.
 [ENSG00000156535](https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD109&keywords=ENSG00000156535)
 
 <img width="570" alt="image" src="https://github.com/Park-JungJoon/Tissue-Classifier/assets/97942772/0f4b8703-7711-4ce1-b58a-df1712065c63">
+
+
+All codes, Rdata saved as jjpark@eevee:/home/jjpark/all_model_done.RData
