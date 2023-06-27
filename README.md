@@ -22,6 +22,8 @@
 
   + 17,211 rows (samples), 5001 columns(gene), V1 column stands for tissue. Skin tissues are written as 1, others are 0.
 
+</br>
+
 ## 3. Used Model - all process worked in R environment. 
 + [Logistic Regression](https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/glm)
 + [LASSO](https://www.rdocumentation.org/packages/glmnet/versions/4.1-7/topics/glmnet)
@@ -29,7 +31,32 @@
 + [Random Forest](https://www.rdocumentation.org/packages/randomForest/versions/4.7-1.1/topics/randomForest)
 + [Boosting](https://www.rdocumentation.org/packages/gbm/versions/2.1.8.1/topics/gbm)
 
+</br>
+
 ## 4. Data Description
 + All models stands for bionomial classification based on randomly sampled 5000 genes.
 + Classify standard tissue is skin, one of the most abundant tissue in GTEx dataset, with significant biologically difference.
-+ All cells in dataframe is a gene expression ()
++ The first column is 1 or 0, and if the sample is skin values are 1, all other values ​​are 0. Other cells in dataframe is a gene expression (normalized in GeTMM).
+ 
+</br>
+
+## 5. Result
+
+Model | AUC | Binomial Deviance | Time
+-|-|-|-
+Linear Regression	|0.9989467	|127.34694|	6,681sec
+LASSO	|0.9999938	|24.85979	|74sec	
+Tree|	0.9971076|79.72645|	68sec	
+Random Forest|	0.9999982|	34.31887	|31,766sec(28thr)	
+Boosting	|0.9999991|	23.99763	|21,245sec
+
++ All model predicts well with 99% accuracy.
++ LASSO seems proper model with fast calculating.
++ Overfitting suspected.
+
+Few genes in tree model associated with Skin.
+[ENSG00000181458](https://www.genecards.org/cgi-bin/carddisp.pl?gene=TMEM45A&keywords=ENSG00000181458)
+[ENSG00000163064](https://www.genecards.org/cgi-bin/carddisp.pl?gene=EN1&keywords=ENSG00000163064#expression)
+[ENSG00000156535](https://www.genecards.org/cgi-bin/carddisp.pl?gene=CD109&keywords=ENSG00000156535)
+
+<img width="570" alt="image" src="https://github.com/Park-JungJoon/Tissue-Classifier/assets/97942772/0f4b8703-7711-4ce1-b58a-df1712065c63">
